@@ -1,0 +1,125 @@
+<!doctype html >
+<html lang="it"data-bs-theme="dark">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Progetto Template</title>
+
+    <link rel="stylesheet" href="/templateSito/src/main/webapp/css/style.css" />
+     <link rel="icon" type="image/svg+xml" href="/templateSito/src/main/img/logo/favicon.svg" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Manrope:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg site-nav" data-bs-theme="dark">
+        <div class="container">
+          <a class="navbar-brand" href="./index.html">
+               <a class="navbar-brand" href="./index.html">
+              <svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <rect x="4" y="4" width="56" height="56" rx="14" fill="#12121A" stroke="#D9A441" stroke-width="2"/>
+              <rect x="14" y="16" width="36" height="28" rx="4" fill="none" stroke="#F6F4EF" stroke-width="2.5"/>
+              <line x1="14" y1="24" x2="50" y2="24" stroke="#F6F4EF" stroke-width="2.5"/>
+              <circle cx="19" cy="20" r="1.6" fill="#F6F4EF"/>
+              <circle cx="24" cy="20" r="1.6" fill="#F6F4EF"/>
+              <rect x="20" y="30" width="20" height="3" rx="1.5" fill="#D9A441"/>
+              <rect x="20" y="36" width="14" height="3" rx="1.5" fill="#F6F4EF" opacity="0.6"/>
+            </svg>
+            Mission Studio
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav align-items-lg-center">
+              <li class="nav-item">
+                <a class="nav-link" href="./inostritemplate.html">I nostri template</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link nav-cta" href="#preventivo">Preventivo gratuito</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <div class="container-fluid p-0">
+        <div class="hero">
+          <img
+            src="/templateSito/src/main/img/nasa-Q1p7bh3SHj8-unsplash.jpg"
+            alt="Vista dello spazio, sfondo della sezione hero"
+            class="hero-img"
+            onload="this.classList.add('is-loaded')"
+          />
+          <div class="hero-content">
+            <h1>Il sito che racconta il tuo lavoro come merita</h1>
+            <p>
+              Progettiamo template su misura, veloci da lanciare e facili da
+              far crescere. Raccontaci la tua idea e ti prepariamo un
+              preventivo gratuito, in 24 ore.
+            </p>
+            <!-- <a href="#preventivo" class="btn btn-preventivo">Richiedi il tuo preventivo gratuito</a> -->
+          </div>
+        </div>
+      </div>
+    </main>
+            <div class="container">
+            <div class="row">
+                <footer class="py-3 my-4 d">
+                    <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link px-2 text-body-secondary">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link px-2 text-body-secondary">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link px-2 text-body-secondary">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link px-2 text-body-secondary">Home</a>
+                        </li>
+                    </ul>
+                    <p class="text-center text-body-secondary">© 2025 Andrea Studio, Inc</p>
+                </footer>               
+            </div>
+        </div>
+
+    <script src="js/script.js"></script>
+    <script>
+      // Fallback: se l'immagine è già in cache, onload potrebbe non scattare in tempo
+      document.querySelectorAll(".hero-img").forEach((img) => {
+        if (img.complete) img.classList.add("is-loaded");
+      });
+    </script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
