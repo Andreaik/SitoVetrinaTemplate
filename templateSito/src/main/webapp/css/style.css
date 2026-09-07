@@ -140,7 +140,7 @@
         font-weight: 600;
         color: var(--paper);
         font-size: clamp(2rem, 5vw, 3.4rem);
-        max-width: 18ch;
+        max-width: 30ch;
         line-height: 1.15;
         margin-bottom: 1rem;
       }
@@ -159,13 +159,29 @@
 } */
 
 
+   .story-panel {
+    background: linear-gradient(180deg, rgba(73, 62, 34, 0.06), rgba(80, 68, 39, 0.02));
+    border: 1px solid rgba(246, 244, 239, 0.1);
+    box-shadow: 0 30px 60px -35px rgba(0, 0, 0, 0.6);
+  }
+
+  .story-panel .text-secondary {
+    color: rgba(246, 244, 239, 0.693) !important;
+  }
+
+
+  .text-accent {
+  color: var(--amber-dark) !important;
+}
+
+
 
       .font-hero-p{ 
 
         font-family: "Fraunces", serif;
         font-weight: 600;
         color: var(--paper);
-        font-size: clamp(2rem, 5vw, 3.4rem);
+        font-size: 1.7rem;
         max-width: 18ch;
         line-height: 1.15;
         margin-bottom: 1rem;
